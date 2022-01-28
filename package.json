@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "optimize": "node scripts/preprocess.js && rimraf ./optimized & svgo -q -p 8 -f ./raw -o ./optimized",
-    "build": "yarn optimize && node scripts/build.js"
+    "build": "yarn optimize && node scripts/build.js",
+    "release": "yarn changeset publish"
   },
   "files": [
     "dist"
