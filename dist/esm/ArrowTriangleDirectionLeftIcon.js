@@ -1,0 +1,1 @@
+import*as React from"react";function ArrowTriangleDirectionLeftIcon(e){return React.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 25 24",width:24,height:24},e),React.createElement("path",{fill:"#C2C9D1",d:"M18.9961 21 4.99609 11.9325 18.9961 3v18Z"}))}export default ArrowTriangleDirectionLeftIcon;
